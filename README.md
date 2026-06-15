@@ -1,7 +1,9 @@
 # NUDT 资源森林
 
 > 知识是其表，思维是其实。
-> 
+>
+> 大学前，应试教育的模式重复了12年，在本科还可能继续4年。但费心于应试教育的学生胜任不了大型项目的总工。
+>
 > 在通过试卷高效完成应试任务后，或许可以把时间花在寻找你真正想干的事情上。
 
 各分类已拆分为独立 GitHub 仓库，按课程方向组织如下。
@@ -10,7 +12,7 @@
 
 **Gitee：**
 [![Star](https://gitee.com/geekChen01/Resources-Forest/badge/star.svg?theme=dark)](https://gitee.com/geekChen01/Resources-Forest)
-[![Fork](https://gitee.com/geekChen01/Resources-Forest/badge/fork.svg?theme=dark)](https://gitee.com/geekChen01/Resources-Forest/forks)
+[![Fork](https://gitee.com/geekChen01/Resources-Forest/badge/fork.svg?theme=dark)](https://gitee.com/geekChen01/Resources-Forest)
 [![License](https://gitee.com/geekChen01/Resources-Forest/badge/license.svg?theme=dark)](https://gitee.com/geekChen01/Resources-Forest/blob/master/LICENSE)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 
@@ -21,23 +23,76 @@
 
 ---
 
-## 📂 子仓库总览
+## 📜 版本时间线
 
-| # | 分类 | 仓库 | 课程数 |
-|---|------|------|--------|
-| 1 | 📚 公共基础课 — 思政 | [→ GitHub](https://github.com/lby-nerd/gong-gong-ji-chu-ke_si-zheng) | 5 |
-| 2 | 📚 公共基础课 — 工科/理科 | [→ GitHub](https://github.com/lby-nerd/gong-gong-ji-chu-ke-gong-ke-li-ke) | 4 |
-| 3 | 🚀 空天与力学 | [→ GitHub](https://github.com/lby-nerd/ResourcesForest-kong-tian) | 4 |
-| 4 | 🧠 智能科学 | [→ GitHub](https://github.com/lby-nerd/RForest-zhi-neng-ke-xue) | 3 |
-| 5 | 🔬 理学院 | [→ GitHub](https://github.com/lby-nerd/RForest-li-xue-yuan) | 1 |
-| 6 | 🏆 学科竞赛 | [→ GitHub](https://github.com/geekChen01/xue-ke-jing-sai) | 5 |
-| 7 | 🖥️ 计算机专业课 | [→ GitHub](https://github.com/geekChen01/cs-resources) | 10 |
+| 版本 | 时间 | 主要变动 |
+|------|------|----------|
+| **v0** | 2024.03 | 仓库创建，初始资源上传 |
+| **v1.0** | 2024.03–2024.05 | 仓库提交多类学科资料 — 高数、大物、物理实验、概率论等 |
+| **v1.1** | 2024.10 | 分类重组：公共基础课 / 公选课 / 各学院专业课 |
+| **v1.2** | 2025.03 | 理学院专业课加入 — 数学物理基础 — by Star  |
+| **v1.3** | 2025.03 | 智能科学专业课加入 — 信号与系统、自控B、计算机硬件 — by Truman |
+| **v1.4** | 2025.07 | 序言更新，推荐阅读扩充 |
+| **v1.5** | 2025.11 | 空天与力学专业课加入 — 材料力学、理论力学、工程热力学、自控B — by 带吴钩 |
+| **v2.0** | 2026.06 | 仓库拆分：单repo → 7 个独立 GitHub 子仓库 + 主仓库索引页 | 
+
+---
+
+## 💡 一些认知分享
+
+**通识类教育** — 投入200%的精力在所有课程上，天花板也不过是"样样通样样松"。培养方案是*大锅饭*而非定制，个人的方案必然要自己去探索。课程上学到的知识往往是载体，其中训练出的思考方式才是四年里最大的收益。
+
+**知识会过时，思维不会** — 任何一本书从著书、修订到发布，周期起步就是 2-3 年，教材尤甚——书本所教的知识，注定是滞后的。那为什么还要学几百年来早已成型的高数、线代、概率论？答案是思维训练。这也正是开头那句"知识是其表，思维是其实"的本意。
+
+> 如何访问 GitHub？Steam++（现名 Watt Toolkit）值得一试，B 站也有不少教程——这或许是你独立尝试的第一步。
+
+**推荐阅读：**
+1. [《上海交通大学生存手册》](https://survivesjtu.gitbook.io/survivesjtumanual) — "国内绝大部分大学的本科教学，不是濒临崩溃，而是早已崩溃"
+   - 无法访问 GitHub？平替镜像：[二哥的 Java 进阶之路](https://javabetter.cn/sidebar/sjtu/)
+2. [OpenDA 项目](https://open-da.github.io/OpenDA-Wiki/preface/) — "如何让教育更加平等地惠及更多人"
+
+   > 执着与智慧是人类两种难得的品德。获得一种，往往会收获成功，而两者兼备大概率会得到悲剧。成书于 2008 年的[上海交通大学生存手册](http://www.houxiaodi.com/assets/misc/manual.pdf) 便是这样一个例子：智慧来源于对谎言的扬弃与对真相的思考，执着体现在试图用其思考结果「唤醒」他人与改变现状，而悲剧性则在于其最终几乎什么都没有改变。
+   >
+   > ……
+   >
+   > 历史重复很多次，其中总会有几次让人哄堂大笑。在「上交生存手册」之后，各种各样的「生存手册」推陈出新，似乎教导新生如何生存下去已经成为了一种新的时髦。这些手册我也看了不少，他们想表达的与其说是「生存」、不如说是「幸存」，并没有对现状的思考与不安，而更多地是对成功捷径的渴望。在这种逻辑下，本科乃至人生如同科举考试的一道题目一样，似乎总有标准答案，总有「更符合出题人意图」的答案。
+   >
+   > ……
+   >
+   > 如何让教育更加平等地惠及更多人，如何实现「The free development of each is the condition for the free development of all」，这是一个太过宏大的命题，我们的 OpenDA 项目只是向前小小的一步。但不管怎样，这都是一个值得我们去为之不懈奋斗的梦想，A dream worth fighting for。
+3. [科技爱好者周刊](https://github.com/ruanyf/weekly) — 每周五发布，截止2025.07已更新至358期
+
+---
+
+## 🤝 贡献指南
+
+1. 欢迎在 **Issue** 中提出资源需求：真题 / 练习题 / 课件资料 / 其他
+   - 可附上压缩包（注意内容应为公开的、且不出现教师个人信息等）
+2. 也欢迎提供**关于课程、比赛的个人经验**；可匿名 / 署名 / 昵称，让后人记得并延续你的传奇
+
+---
+
+
+## 🌍 统一组织结构
+
+每个子仓库的课程统一采用**四段式结构**：
+
+```
+课程名/
+├── README.md      ← 资源架构 + 文件目录 + 复习指南
+├── 历年真题/      ← 期末试卷、模拟卷
+├── 练习题/        ← 课后习题、综合练习、题库
+└── 课件资料/      ← PPT、讲义、补充材料
+```
 
 ---
 
 ## 📖 各仓库课程目录
 
 ### 1. 📚 公共基础课 — 思政
+
+mm: RForest_ndut
+
 [→ 打开仓库](https://github.com/lby-nerd/gong-gong-ji-chu-ke_si-zheng)
 ```
 ├── 马原/
@@ -168,7 +223,7 @@
         └── ...
 ```
 
-### 7. 🖥️ 计算机专业课
+### 7. 🖥️ 计算机
 [→ 打开仓库](https://github.com/geekChen01/cs-resources)
 ```
 ├── 人工智能-AI/
@@ -204,51 +259,6 @@
 │   └── 2024数据库系统课件/
 └── 数据挖掘/
 ```
-
----
-
-## 🌍 统一组织结构
-
-每个子仓库的课程统一采用**四段式结构**：
-
-```
-课程名/
-├── README.md      ← 资源架构 + 文件目录 + 复习指南
-├── 历年真题/      ← 期末试卷、模拟卷
-├── 练习题/        ← 课后习题、综合练习、题库
-└── 课件资料/      ← PPT、讲义、补充材料
-```
-
----
-
-## 📜 版本时间线
-
-| 版本 | 时间 | 主要变动 |
-|------|------|----------|
-| **v1.0** | 2023 | 仓库创建，初始资源上传 |
-| **v1.1** | 2024.03–05 | 提交多类学科资料 — 高数、大物、物理实验、概率论等 — by 21 geekchen |
-| **v2.0** | 2024.10 | 分类重组：公共基础课 / 公选课 / 各学院专业课 |
-| **v2.1** | 2025 | 智能科学专业课加入 — 信号与系统、自控B、计算机硬件 — by 21 Truman |
-| **v2.2** | 2025.07 | 序言更新，推荐阅读扩充 |
-| **v2.3** | 2025.11 | 空天与力学专业课加入 — 材料力学、理论力学、工程热力学、自控B — by 带吴钩 |
-| **v3.0** |2026.06 | 仓库拆分：Monorepo → 7 个独立 GitHub 子仓库 + 主仓库索引页 | 
-
-## 💡 一些认知分享
-
-**通识类教育** — 投入200%的精力在所有课程上，天花板也不过是"样样通样样松"。培养方案是*大锅饭*而非定制，个人的方案必然要自己去探索。课程上学到的知识往往是载体，其中训练出的思考方式才是四年里最大的收益。
-
-**推荐阅读：**
-1. [《上海交通大学生存手册》](https://survivesjtu.gitbook.io/survivesjtumanual) — "国内绝大部分大学的本科教学，不是濒临崩溃，而是早已崩溃"
-2. [OpenDA 项目](https://open-da.github.io/OpenDA-Wiki/preface/) — "如何让教育更加平等地惠及更多人"
-3. [科技爱好者周刊](https://github.com/ruanyf/weekly) — 每周五发布，截止2025.07已更新至358期
-
----
-
-## 🤝 贡献指南
-
-1. 欢迎在 **Issue** 中提出资源需求：真题 / 练习题 / 课件资料 / 其他
-   - 可附上压缩包（注意内容应为公开的、且不出现教师个人信息等）
-2. 也欢迎提供**关于课程、比赛的个人经验**；可匿名 / 署名 / 昵称，让后人记得并延续你的传奇
 
 ---
 
